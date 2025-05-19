@@ -1,0 +1,23 @@
+.SearchBox {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 600px;
+    padding: 0 1rem;
+}
+
+.search-form {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .search-form {
+        flex-direction: column;
+    }
+    
+    .SearchBox {
+        margin: 1rem auto;
+    }
+}
